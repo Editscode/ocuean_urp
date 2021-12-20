@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aa24587b4b7d9564f91b571b7bf878a0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - ST-Saturn
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 70a939d18b1a4204189cff90d9c8fab7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

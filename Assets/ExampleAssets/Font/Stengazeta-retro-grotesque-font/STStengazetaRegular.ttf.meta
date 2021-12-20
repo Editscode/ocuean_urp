@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a5e8a7027d2b0284aa2db33726b877af
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - ST-Stengazeta
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72d08540eddbbe94187cdcf9dd111c76, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
