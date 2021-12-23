@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SetAFK : MonoBehaviour
+{
+
+    int IdleTimeSetting = 120;
+    float LastIdleTime;
+    public GameObject work;
+    public GameObject afk;
+
+    void Awake()
+    {
+        LastIdleTime = Time.time;
+    }
+
+    private void Update()
+    {
+
+        if (Input.anyKey)
+        {
+            LastIdleTime = Time.time;
+            work.SetActive(true);
+            afk.SetActive(false);
+        }
+        if (IdleCheck())
+        {
+            work.SetActive(false);
+            afk.SetActive(true);
+        }
+    }
+
+    public bool IdleCheck()
+    {
+        return Time.time - LastIdleTime > IdleTimeSetting;
+    }
+
+}
