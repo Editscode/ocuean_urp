@@ -13,21 +13,17 @@ public class ToggleSize : MonoBehaviour
     {
         rectTransform = GetComponent<RectTransform>();
     }
-    public void GetActive(bool a)
+    public void GetActive(bool activate)
     {
-        if (a)
+        if (!activate)
         {
             rectTransform.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-            Debug.Log(rectTransform.transform.localScale);
-            text.color = new Color(255, 255, 255, 255);
-
-
+            text.color = new Color(0, 0, 0, 255);
         }
         else
         {
             rectTransform.transform.localScale = new Vector3(1f, 1f, 1f);
-            Debug.Log(rectTransform.transform.localScale);
-            text.color = new Color(0, 0, 0, 255);
+            text.color = new Color(255, 255, 255, 255); 
         }
     }
 }
