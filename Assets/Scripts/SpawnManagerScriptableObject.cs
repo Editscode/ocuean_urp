@@ -6,4 +6,5 @@ public class SpawnManagerScriptableObject : ScriptableObject
 {
     public string prefabName;
     public Sprite[] PointsPhoto;
+    public GameObject[] ContentItemList;
 }
