@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +7,8 @@ public class SetPhotoDate : MonoBehaviour
     public SpawnManagerScriptableObject[] imagesData;
     public Image[] point;
     private int start = 0;
+    private bool language = false;
+    public GameObject ru, eu;
 
     // Update is called once per frame
     public void setPhoto(int j)
@@ -25,11 +25,17 @@ public class SetPhotoDate : MonoBehaviour
         }
 
     }
-    public void PosterStart(int j)
+    public void SwitchLanguage()
     {
-        if (start != j)
+        if (language)
         {
-
+            ru.SetActive(true);
+            eu.SetActive(false);
+            language = false;
+            return;
         }
+        ru.SetActive(false);
+        eu.SetActive(true);
+        language = true;
     }
 }
