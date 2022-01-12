@@ -9,13 +9,15 @@ public class AudioPlay : MonoBehaviour
     private void Awake()
     {
         audio = GetComponent<AudioSource>();
+        AudioListener.volume = 0;
     }
     public void Play()
     {
-
         if (audioListener.enabled & audio != null)
         {
             audio.Play();
+
+            AudioListener.volume = 1;
         }
     }
 
