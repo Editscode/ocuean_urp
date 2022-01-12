@@ -26,7 +26,7 @@ public class SetPhotoDate : MonoBehaviour
     }
     public void SwitchLanguage(bool language)
     {
-        if (!language)
+        if (language)
         {
             ru.SetActive(true);
             eu.SetActive(false);

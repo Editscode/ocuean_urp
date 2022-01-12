@@ -17,6 +17,7 @@ public class EventPlayOpen : MonoBehaviour
         if (active)
         {
             CloseEvent();
+
             active = false;
         }
         else
