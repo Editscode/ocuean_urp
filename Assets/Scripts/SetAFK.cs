@@ -5,6 +5,8 @@ using UnityEngine;
 public class SetAFK : MonoBehaviour
 {
 
+
+
     int IdleTimeSetting = 120;
     float LastIdleTime;
     public GameObject work;

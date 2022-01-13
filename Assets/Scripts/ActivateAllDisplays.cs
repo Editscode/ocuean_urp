@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ActivateAllDisplays : MonoBehaviour
 {
+
     void Start()
     {
         //Debug.Log("displays connected: " + Display.displays.Length);

@@ -7,7 +7,6 @@ public class SetPhotoDate : MonoBehaviour
     public SpawnManagerScriptableObject[] imagesData;
     public Image[] point;
     private int start = 0;
-    public GameObject ru, eu;
 
     // Update is called once per frame
     public void setPhoto(int j)
@@ -23,18 +22,5 @@ public class SetPhotoDate : MonoBehaviour
             start = j;
         }
 
-    }
-    public void SwitchLanguage(bool language)
-    {
-        if (language)
-        {
-            ru.SetActive(true);
-            eu.SetActive(false);
-        }
-        else
-        {
-            ru.SetActive(false);
-            eu.SetActive(true);
-        }
     }
 }

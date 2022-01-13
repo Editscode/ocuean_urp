@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ImageSwitch : MonoBehaviour
 {
+
+    public static bool language { get; set; }= true;
     [SerializeField]
     private Image image;
 
