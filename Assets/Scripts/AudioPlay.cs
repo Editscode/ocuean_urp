@@ -11,6 +11,10 @@ public class AudioPlay : MonoBehaviour
         audio = GetComponent<AudioSource>();
         AudioListener.volume = 0;
     }
+    private void Start()
+    {
+        Play();
+    }
     public void Play()
     {
         if (audioListener.enabled & audio != null)
@@ -20,18 +24,19 @@ public class AudioPlay : MonoBehaviour
             AudioListener.volume = 1;
         }
     }
-    void PauseAllSources()
-    {
-        AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
-        foreach (AudioSource a in allAudioSources)
-        {
-            if (a.isActiveAndEnabled == true)
-            {
-                if (a.isPlaying) a.Pause();
-                else a.UnPause();
-            }
-        }
 
-    }
+    //void PauseAllSources()
+    //{
+    //    AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+    //    foreach (AudioSource a in allAudioSources)
+    //    {
+    //        if (a.isActiveAndEnabled == true)
+    //        {
+    //            if (a.isPlaying) a.Pause();
+    //            else a.UnPause();
+    //        }
+    //    }
+
+    //}
 
 }
