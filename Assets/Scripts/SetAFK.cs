@@ -37,5 +37,17 @@ public class SetAFK : MonoBehaviour
     {
         return Time.time - LastIdleTime > IdleTimeSetting;
     }
+    void PauseAllSources()
+    {
+        AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource a in allAudioSources)
+        {
+            if (a.isActiveAndEnabled == true)
+            {
+                if (a.isPlaying) a.Pause();
+                else a.UnPause();
+            }
+        }
 
+    }
 }
