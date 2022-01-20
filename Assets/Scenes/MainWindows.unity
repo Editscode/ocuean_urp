@@ -27293,6 +27293,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7978882010322129803, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1198185055067148613, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
       propertyPath: m_Name
       value: Ellipse001
@@ -27300,6 +27304,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
       propertyPath: m_Name
       value: OkeanModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677544497394789074, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857250085677420269, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860280151479232195, guid: e64523c3cf1748b44a0f9e1103780e50, type: 3}
       propertyPath: m_Name
@@ -29327,7 +29343,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 32
+  m_Resolution: 16
   m_UpdateFrequency: 0
   m_BoxSize: {x: 61.209145, y: 18.240147, z: 48.691307}
   m_BoxOffset: {x: 0, y: -3.8896656, z: -18.169514}
