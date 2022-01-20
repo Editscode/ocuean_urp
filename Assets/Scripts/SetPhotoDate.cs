@@ -7,6 +7,7 @@ public class SetPhotoDate : MonoBehaviour
     public SpawnManagerScriptableObject[] imagesData;
     public Image[] point;
     private int start = 0;
+    public Animator styleAnimator;
 
     // Update is called once per frame
     public void setPhoto(int j)
@@ -18,6 +19,11 @@ public class SetPhotoDate : MonoBehaviour
                 point[i].sprite = imagesData[j].PointsPhoto[i];
                 point[i].SetNativeSize();
             }
+            if (styleAnimator!= null)
+            {
+                styleAnimator.Play("Expand");
+            }
+        
             animator.SetTrigger("PhotoMove");
             start = j;
         }
