@@ -8,6 +8,8 @@ public class EventPlayOpen : MonoBehaviour
     private Animator m_AnimatorControllerModel;
     [SerializeField]
     private Animator m_AnimatorControllerCam;
+    [SerializeField]
+    private OpenActivity openActivity;
     private bool active = false;
 
 
@@ -28,7 +30,7 @@ public class EventPlayOpen : MonoBehaviour
     }
     private void OpenEvent()
     {
-        m_AnimatorControllerCam.Play("Move");
+        m_AnimatorControllerCam.Play("CamMoveVant");
         m_AnimatorControllerModel.Play("Open");
        
     }
@@ -38,5 +40,9 @@ public class EventPlayOpen : MonoBehaviour
         m_AnimatorControllerCam.Play("BackMove");
         m_AnimatorControllerModel.Play("Close");
 
+    }
+    public void TextActivate()
+    {
+        openActivity.Open();
     }
 }
