@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class SetPhotoDate : MonoBehaviour
     public Image[] point;
     private int start = 0;
     public Animator styleAnimator;
+    public TextMeshProUGUI text;
 
     // Update is called once per frame
     public void setPhoto(int j)
@@ -23,7 +25,7 @@ public class SetPhotoDate : MonoBehaviour
             {
                 styleAnimator.Play("Expand");
             }
-        
+            //text.text = imagesData[j].prefabName;
             animator.SetTrigger("PhotoMove");
             start = j;
         }

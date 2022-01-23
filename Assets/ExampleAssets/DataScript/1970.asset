@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2865a806319e3f43a64debc6bdce7ad, type: 3}
   m_Name: 1970
   m_EditorClassIdentifier: 
-  prefabName: 1970
+  prefabName: 1959-1969
   PointsPhoto:
   - {fileID: 21300000, guid: 56ba640f88cb8984faaeb34562aa0644, type: 3}
   - {fileID: 21300000, guid: 5b9dd174874385c48b3750f820c2d2b9, type: 3}
   - {fileID: 21300000, guid: 1265b9bf33261f147bb11bafa8a1228d, type: 3}
   - {fileID: 21300000, guid: 210f4b90e07af024e8c0af665f14979a, type: 3}
   - {fileID: 21300000, guid: 6eb4dc85508c2444695a91f1c720f51a, type: 3}
+  ContentItemList: []

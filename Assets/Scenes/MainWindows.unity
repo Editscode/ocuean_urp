@@ -613,7 +613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 202.00014, y: 1496.4998}
+  m_AnchoredPosition: {x: 202.00014, y: 1380}
   m_SizeDelta: {x: 676, y: 847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32877893
@@ -2392,7 +2392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -214.85, y: 726}
+  m_AnchoredPosition: {x: -214.85, y: 635.999}
   m_SizeDelta: {x: 737, y: 994}
   m_Pivot: {x: 0.44118696, y: 0.5}
 --- !u!114 &216760350
@@ -4193,6 +4193,18 @@ MonoBehaviour:
           m_StringArgument: Expand
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1971-1975
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &331276330
 GameObject:
@@ -5267,6 +5279,18 @@ MonoBehaviour:
           m_StringArgument: Expand
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1959-1969
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &374373873
 GameObject:
@@ -5631,6 +5655,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Expand
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2001-2022
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
@@ -6022,6 +6058,7 @@ MonoBehaviour:
   - {fileID: 278110976}
   - {fileID: 548519959}
   styleAnimator: {fileID: 0}
+  text: {fileID: 0}
 --- !u!95 &407201586
 Animator:
   serializedVersion: 4
@@ -6846,7 +6883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93699e8c25625604682085214dd98307, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad189c426741fac4f9a67cf6baceaa3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9597,7 +9634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -202.5, y: 1272}
+  m_AnchoredPosition: {x: -202.5, y: 1182}
   m_SizeDelta: {x: 799, y: 1054}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610112261
@@ -10814,50 +10851,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\t\u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438
-    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u043F\u043E \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0443
-    \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0430, \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u0435
-    \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0433\u043E \u043E\u0431\u044A\u0435\u043C\u0430
-    \u0437\u0434\u0430\u043D\u0438\u044F \u0431\u044B\u043B\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043E
-    \u0432 2-\u0445 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\u0430\u0445: \u043F\u043E
-    \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u043C
-    \u0444\u0435\u0440\u043C\u0430\u043C \u0438 \u043F\u043E \u0432\u0430\u043D\u0442\u0430\u043C.
-    \u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0435 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B
-    \u0431\u044B\u043B\u0438 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u044B
-    \u0432 \u0432\u0438\u0434\u0435 \u043C\u0430\u043A\u0435\u0442\u0430 \u0438 22
-    \u043F\u043B\u0430\u043D\u0448\u0435\u0442\u043E\u0432 \u0438 \u043F\u043E\u0434\u0440\u0430\u043C\u043D\u0438\u043A\u043E\u0432.
-    \r\n\t\u041E\u0431\u0441\u0443\u0434\u0438\u0432 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0435
-    \u043D\u0430 \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u0438\u0435
-    \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B, \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0439
-    \u043D\u0430\u0443\u0447\u043D\u043E-\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-    \u0421\u043E\u0432\u0435\u0442 \u043E\u0442\u043C\u0435\u0442\u0438\u043B \u0432\u044B\u0441\u043E\u043A\u043E\u0435
-    \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438
-    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u0438 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u043E\u0432\u0430\u043B
-    \u0435\u0433\u043E \u043A \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u044E
-    \u0441 \u0443\u0447\u0435\u0442\u043E\u043C \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445
-    \u0437\u0430\u043C\u0435\u0447\u0430\u043D\u0438\u0439 \u0432 \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0435\u0439
-    \u0441\u0442\u0430\u0434\u0438\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F.\r\n\t\u0422\u0430\u043A\u0438\u043C
-    \u043E\u0431\u0440\u0430\u0437\u043E\u043C, \u0432\u043F\u0435\u0440\u0432\u044B\u0435
-    \u0432 \u0441\u0442\u0440\u0430\u043D\u0435 \u043F\u0435\u0440\u0435\u043A\u0440\u044B\u0442\u0438\u0435
-    \u044D\u043B\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
-    \u043E\u0431\u044A\u0435\u043C\u0430 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043B\u0438
-    64 \u0432\u0430\u043D\u0442\u0430, \u0437\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u043D\u044B\u0435
-    \u043C\u0435\u0436\u0434\u0443 \u043D\u0430\u0440\u0443\u0436\u043D\u044B\u043C\u0438
-    \u0441\u0442\u0435\u043D\u0430\u043C\u0438 \u043C\u043E\u0449\u043D\u044B\u043C
-    \u0436\u0435\u043B\u0435\u0437\u043E\u0431\u0435\u0442\u043E\u043D\u043D\u044B\u043C
-    \u043F\u043E\u044F\u0441\u043E\u043C \u0438 \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u043C
-    \u043A\u043E\u043B\u044C\u0446\u043E\u043C. \u0421\u0435\u0432\u0435\u0440\u043E-\u0437\u0430\u043F\u0430\u0434\u043D\u0430\u044F
-    \u0447\u0430\u0441\u0442\u044C \u044D\u043B\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
-    \u043E\u0431\u044A\u0435\u043C\u0430, \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u043D\u0430\u044F
-    \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u0410\u043C\u0443\u0440\u0441\u043A\u043E\u0433\u043E
-    \u0437\u0430\u043B\u0438\u0432\u0430, \u0431\u044B\u043B\u0430 \u0446\u0435\u043B\u0438\u043A\u043E\u043C
-    \u043E\u0441\u0442\u0435\u043A\u043B\u0435\u043D\u0430. \u0412\u043E \u0432\u043D\u0435\u0448\u043D\u0435\u043C
-    \u0432\u0438\u0434\u0435 \u043D\u043E\u0432\u043E\u0433\u043E \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0430
-    \u0443\u0433\u0430\u0434\u044B\u0432\u0430\u043B\u043E\u0441\u044C \u0441\u0445\u043E\u0434\u0441\u0442\u0432\u043E
-    \u0441 \u0440\u0443\u0431\u043A\u043E\u0439 \u043A\u043E\u0440\u0430\u0431\u043B\u044F,
-    \u0447\u0442\u043E \u0431\u044B\u043B\u043E \u0432\u0435\u0441\u044C\u043C\u0430
-    \u0441\u0438\u043C\u0432\u043E\u043B\u0438\u0447\u043D\u043E \u0434\u043B\u044F
-    \u0433\u043E\u0440\u043E\u0434\u0430-\u043F\u043E\u0440\u0442\u0430.\r\n"
+  m_text: "\tDuring the design of the movie theater, the roof of the building was
+    presented in 2 variants: metal truss system or a cable suspension system.\r\n\tThe
+    United Science & Technology Council noted that the suspension cable system was
+    the better decision and the project was approved.\r\n\tTherefore, <i> this was
+    the first ever roof in the country to be an elliptic shape to and suspended by
+    64 cables, connected to both sides of the external walls</i>. \r\n\tThe north-west
+    side of the building is turned towards the Amur Bay and is fully windowed. The
+    external design of the movie-theater \u201COcean\u201D shares similarities with
+    the mast of a ship, which is very symbolic for a port-city.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f70b3dfe1ffc23f4cad25788e7fa0bc0, type: 2}
   m_sharedMaterial: {fileID: 6205586752620700035, guid: f70b3dfe1ffc23f4cad25788e7fa0bc0, type: 2}
@@ -13039,6 +13041,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Expand
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2001-2022
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
@@ -16117,6 +16131,18 @@ MonoBehaviour:
           m_StringArgument: Expand
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1971-1975
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &937109165
 GameObject:
@@ -16207,7 +16233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1483383371419702, guid: 40c76084cc9c7e044b3cdb80b8c43c52, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224759222140833254, guid: 40c76084cc9c7e044b3cdb80b8c43c52, type: 3}
       propertyPath: m_Pivot.x
@@ -16843,8 +16869,8 @@ RectTransform:
   - {fileID: 32877892}
   - {fileID: 1497647625}
   - {fileID: 1541955795}
-  - {fileID: 1628448535}
   - {fileID: 1980572877}
+  - {fileID: 1628448535}
   m_Father: {fileID: 206966754}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16877,6 +16903,7 @@ MonoBehaviour:
   - {fileID: 1497647626}
   - {fileID: 1541955796}
   styleAnimator: {fileID: 1704103629}
+  text: {fileID: 1980572878}
 --- !u!1 &984113153
 GameObject:
   m_ObjectHideFlags: 0
@@ -17981,49 +18008,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\t\u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438
-    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u043F\u043E \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0443
+    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430
     \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0430, \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u0435
     \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0433\u043E \u043E\u0431\u044A\u0435\u043C\u0430
     \u0437\u0434\u0430\u043D\u0438\u044F \u0431\u044B\u043B\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043E
     \u0432 2-\u0445 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\u0430\u0445: \u043F\u043E
     \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u043C
-    \u0444\u0435\u0440\u043C\u0430\u043C \u0438 \u043F\u043E \u0432\u0430\u043D\u0442\u0430\u043C.
-    \u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0435 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B
-    \u0431\u044B\u043B\u0438 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u044B
-    \u0432 \u0432\u0438\u0434\u0435 \u043C\u0430\u043A\u0435\u0442\u0430 \u0438 22
-    \u043F\u043B\u0430\u043D\u0448\u0435\u0442\u043E\u0432 \u0438 \u043F\u043E\u0434\u0440\u0430\u043C\u043D\u0438\u043A\u043E\u0432.
-    \r\n\t\u041E\u0431\u0441\u0443\u0434\u0438\u0432 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0435
-    \u043D\u0430 \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u0438\u0435
-    \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B, \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0439
+    \u0444\u0435\u0440\u043C\u0430\u043C \u0438 \u043F\u043E \u0432\u0430\u043D\u0442\u0430\u043C.\r\n\t\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0439
     \u043D\u0430\u0443\u0447\u043D\u043E-\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
     \u0421\u043E\u0432\u0435\u0442 \u043E\u0442\u043C\u0435\u0442\u0438\u043B \u0432\u044B\u0441\u043E\u043A\u043E\u0435
     \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438
-    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u0438 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u043E\u0432\u0430\u043B
-    \u0435\u0433\u043E \u043A \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u044E
-    \u0441 \u0443\u0447\u0435\u0442\u043E\u043C \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445
-    \u0437\u0430\u043C\u0435\u0447\u0430\u043D\u0438\u0439 \u0432 \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0435\u0439
-    \u0441\u0442\u0430\u0434\u0438\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F.\r\n\t\u0422\u0430\u043A\u0438\u043C
-    \u043E\u0431\u0440\u0430\u0437\u043E\u043C, \u0432\u043F\u0435\u0440\u0432\u044B\u0435
+    \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u0441 \u0432\u0430\u043D\u0442\u0430\u043C\u0438
+    \u0438 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u043E\u0432\u0430\u043B
+    \u0435\u0433\u043E \u043A \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u044E.\r\n\t\u0422\u0430\u043A\u0438\u043C
+    \u043E\u0431\u0440\u0430\u0437\u043E\u043C, <i> \u0432\u043F\u0435\u0440\u0432\u044B\u0435
     \u0432 \u0441\u0442\u0440\u0430\u043D\u0435 \u043F\u0435\u0440\u0435\u043A\u0440\u044B\u0442\u0438\u0435
     \u044D\u043B\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
-    \u043E\u0431\u044A\u0435\u043C\u0430 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043B\u0438
+    \u043E\u0431\u044A\u0435\u043C\u0430 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044E\u0442
     64 \u0432\u0430\u043D\u0442\u0430, \u0437\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u043D\u044B\u0435
     \u043C\u0435\u0436\u0434\u0443 \u043D\u0430\u0440\u0443\u0436\u043D\u044B\u043C\u0438
-    \u0441\u0442\u0435\u043D\u0430\u043C\u0438 \u043C\u043E\u0449\u043D\u044B\u043C
-    \u0436\u0435\u043B\u0435\u0437\u043E\u0431\u0435\u0442\u043E\u043D\u043D\u044B\u043C
-    \u043F\u043E\u044F\u0441\u043E\u043C \u0438 \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u043C
-    \u043A\u043E\u043B\u044C\u0446\u043E\u043C. \u0421\u0435\u0432\u0435\u0440\u043E-\u0437\u0430\u043F\u0430\u0434\u043D\u0430\u044F
+    \u0441\u0442\u0435\u043D\u0430\u043C\u0438. \r</i>\n\t\u0421\u0435\u0432\u0435\u0440\u043E-\u0437\u0430\u043F\u0430\u0434\u043D\u0430\u044F
     \u0447\u0430\u0441\u0442\u044C \u044D\u043B\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
     \u043E\u0431\u044A\u0435\u043C\u0430, \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u043D\u0430\u044F
     \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u0410\u043C\u0443\u0440\u0441\u043A\u043E\u0433\u043E
-    \u0437\u0430\u043B\u0438\u0432\u0430, \u0431\u044B\u043B\u0430 \u0446\u0435\u043B\u0438\u043A\u043E\u043C
-    \u043E\u0441\u0442\u0435\u043A\u043B\u0435\u043D\u0430. \u0412\u043E \u0432\u043D\u0435\u0448\u043D\u0435\u043C
-    \u0432\u0438\u0434\u0435 \u043D\u043E\u0432\u043E\u0433\u043E \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0430
-    \u0443\u0433\u0430\u0434\u044B\u0432\u0430\u043B\u043E\u0441\u044C \u0441\u0445\u043E\u0434\u0441\u0442\u0432\u043E
-    \u0441 \u0440\u0443\u0431\u043A\u043E\u0439 \u043A\u043E\u0440\u0430\u0431\u043B\u044F,
-    \u0447\u0442\u043E \u0431\u044B\u043B\u043E \u0432\u0435\u0441\u044C\u043C\u0430
-    \u0441\u0438\u043C\u0432\u043E\u043B\u0438\u0447\u043D\u043E \u0434\u043B\u044F
-    \u0433\u043E\u0440\u043E\u0434\u0430-\u043F\u043E\u0440\u0442\u0430.\r\n"
+    \u0437\u0430\u043B\u0438\u0432\u0430, \u0446\u0435\u043B\u0438\u043A\u043E\u043C
+    \u043E\u0441\u0442\u0435\u043A\u043B\u0435\u043D\u0430. \r\n\t\u0412\u043E \u0432\u043D\u0435\u0448\u043D\u0435\u043C
+    \u0432\u0438\u0434\u0435 \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0430
+    \xAB\u041E\u043A\u0435\u0430\u043D\xBB \u0443\u0433\u0430\u0434\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+    \u0441\u0445\u043E\u0434\u0441\u0442\u0432\u043E \u0441 \u0440\u0443\u0431\u043A\u043E\u0439
+    \u043A\u043E\u0440\u0430\u0431\u043B\u044F, \u0447\u0442\u043E \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0432\u0435\u0441\u044C\u043C\u0430 \u0441\u0438\u043C\u0432\u043E\u043B\u0438\u0447\u043D\u044B\u043C
+    \u0434\u043B\u044F \u0433\u043E\u0440\u043E\u0434\u0430-\u043F\u043E\u0440\u0442\u0430.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f70b3dfe1ffc23f4cad25788e7fa0bc0, type: 2}
   m_sharedMaterial: {fileID: 6205586752620700035, guid: f70b3dfe1ffc23f4cad25788e7fa0bc0, type: 2}
@@ -25486,7 +25501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.00012207, y: 273}
+  m_AnchoredPosition: {x: 0, y: 220}
   m_SizeDelta: {x: 746, y: 993}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497647626
@@ -25755,6 +25770,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Expand
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1959-1969
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 1
@@ -26332,7 +26359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 263.00012, y: 959.99976}
+  m_AnchoredPosition: {x: 263.00012, y: 869.9987}
   m_SizeDelta: {x: 798, y: 966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541955796
@@ -27883,7 +27910,7 @@ RectTransform:
   m_Children:
   - {fileID: 1704103634}
   m_Father: {fileID: 971444153}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -28972,6 +28999,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Expand
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1959-1969
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
@@ -31591,7 +31630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0412\u0430\u043D\u0442\u043E\u0432\u044B\u0435 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438"
+  m_text: Cable-stayed structures
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c3400cca34e2f742b74d4a2e46e3d91, type: 2}
   m_sharedMaterial: {fileID: -3475540974951769288, guid: 5c3400cca34e2f742b74d4a2e46e3d91, type: 2}
@@ -34352,11 +34391,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 971444153}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -250}
+  m_AnchoredPosition: {x: 0, y: -299}
   m_SizeDelta: {x: 0, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980572878
@@ -36027,6 +36066,18 @@ MonoBehaviour:
           m_StringArgument: Expand
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2001-2022
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &2043979356
 GameObject:
@@ -36945,6 +36996,18 @@ MonoBehaviour:
           m_StringArgument: Expand
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1959-1969
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &2061904474
 GameObject:
@@ -37207,6 +37270,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Expand
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980572878}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2001-2022
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
