@@ -8,7 +8,7 @@ public class WindowsActivity : MonoBehaviour
     private Animator m_AnimatorControllerModel;
 
     bool ActivePanel = false;
-
+    [ContextMenu("OpenPanel")]
     public void OpenPanel() {
         if (ActivePanel)
         {
