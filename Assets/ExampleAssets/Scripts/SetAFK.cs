@@ -1,12 +1,13 @@
+using DanielLochner.Assets.SimpleScrollSnap;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SetAFK : MonoBehaviour
 {
-    int IdleTimeSetting = 120;
+    int IdleTimeSetting = 30;
     float LastIdleTime;
     public GameObject work;
     public GameObject afk;
-
     void Awake()
     {
         LastIdleTime = Time.time;
@@ -14,7 +15,6 @@ public class SetAFK : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         if (Input.anyKey)
         {
             LastIdleTime = Time.time;
@@ -23,8 +23,13 @@ public class SetAFK : MonoBehaviour
         }
         if (IdleCheck())
         {
-            work.SetActive(false);
-            afk.SetActive(true);
+            if (!afk.active)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            //scroll.GoToPanel(0);
+            //work.SetActive(false);
+            //afk.SetActive(true);
         }
     }
 

@@ -2410,6 +2410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   work: {fileID: 206966753}
   afk: {fileID: 2019456975}
+  scroll: {fileID: 1189756245}
 --- !u!4 &57042099
 Transform:
   m_ObjectHideFlags: 0
@@ -78752,7 +78753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3d0250fed1614794fa6916641d418aba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c71f4a8d392deb478cb8cec0498b1e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -81819,7 +81820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8dc93914e0bec42aba2845086b7b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
 --- !u!1 &1689917696
 GameObject:
   m_ObjectHideFlags: 0
