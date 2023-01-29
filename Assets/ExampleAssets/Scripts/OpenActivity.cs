@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class OpenActivity : MonoBehaviour
+{
+    public GameObject ActiveEU, ActiveRU;
+    public void Open(bool togle = true)
+    {
+        if (togle)
+        {
+            if (ImageSwitch.language)
+            {
+                ActiveRU.SetActive(true);
+                ActiveRU.GetComponent<Animator>().Play("Open");
+            }
+            else
+            {
+                ActiveEU.SetActive(true);
+                ActiveEU.GetComponent<Animator>().Play("Open");
+            }
+        }
+    }
+}

@@ -12965,7 +12965,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12977,7 +12977,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12989,7 +12989,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14433,7 +14433,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14469,7 +14469,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14481,7 +14481,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15241,7 +15241,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15253,7 +15253,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15265,7 +15265,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16287,7 +16287,6 @@ MonoBehaviour:
   - {fileID: 278110976}
   - {fileID: 548519959}
   styleAnimator: {fileID: 0}
-  text: {fileID: 0}
 --- !u!95 &407201586
 Animator:
   serializedVersion: 4
@@ -31893,7 +31892,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31905,7 +31904,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31917,7 +31916,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46622,7 +46621,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46634,7 +46633,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46646,7 +46645,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48267,7 +48266,6 @@ MonoBehaviour:
   - {fileID: 1497647626}
   - {fileID: 1541955796}
   styleAnimator: {fileID: 1704103629}
-  text: {fileID: 0}
 --- !u!1 &971760921
 GameObject:
   m_ObjectHideFlags: 0
@@ -52716,7 +52714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff6f73f641788428e2871048893150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioListener: {fileID: 1687258582}
   allAudioSources:
   - {fileID: 1126950138}
   - {fileID: 1003919028}
@@ -72913,7 +72910,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72949,7 +72946,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72961,7 +72958,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80516,7 +80513,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80528,7 +80525,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80540,7 +80537,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97621,7 +97618,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97633,7 +97630,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97645,7 +97642,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -99188,7 +99185,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -99224,7 +99221,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -99236,7 +99233,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -100800,7 +100797,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 971444154}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -100812,7 +100809,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 407201585}
         m_TargetAssemblyTypeName: SetPhotoDate, Assembly-CSharp
-        m_MethodName: setPhoto
+        m_MethodName: SetPhoto
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -100824,7 +100821,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 377035809}
         m_TargetAssemblyTypeName: SetVideo, Assembly-CSharp
-        m_MethodName: setVideo
+        m_MethodName: SetVideoId
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
